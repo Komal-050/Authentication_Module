@@ -1,0 +1,88 @@
+.container {
+    max-width: 400px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #bd2130;
+  }
+  
+  .alert-danger {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .not-registered-text {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .not-registered-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .not-registered-text a:hover {
+    text-decoration: underline;
+  }
+
+  .already-registered-text {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .already-registered-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .already-registered-text a:hover {
+    text-decoration: underline;
+  }
